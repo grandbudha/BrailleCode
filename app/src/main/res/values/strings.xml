@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hello Braille</string>
+    <string name="upload_braille">Upload Braille</string>
+    <string name="scan_braille">Scan Braille</string>
+    <string name="about">About Braille</string>
+    <string name="okay">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="grade_one">Grade 1</string>
+    <string name="grade_two">Grade 2</string>
+    <string name="braille">Braille</string>
+    <string name="conversion">Conversion in progress...</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

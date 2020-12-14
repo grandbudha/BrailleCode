@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:background="@color/colorBG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Recyler List View -->
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerList"
+                android:layout_below="@+id/toolbar"
+                android:scrollbars="vertical"
+                android:scrollbarStyle="outsideInset"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+            <!-- Circular button -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/addButton"
+                app:cardElevation="@dimen/dp_4"
+                android:layout_marginEnd="@dimen/dp_20"
+                android:layout_marginBottom="@dimen/dp_20"
+                app:cardCornerRadius="@dimen/dp_28"
+                app:cardBackgroundColor="@color/colorPrimary"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="@dimen/dp_52"
+                android:layout_height="@dimen/dp_52">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </RelativeLayout>
+
+        <include layout="@layout/upload_scan_sheet" android:id="@+id/uploadScanSheet"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

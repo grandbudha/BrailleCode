@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DeleteFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:title="@string/braille"
+            app:titleTextColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+            <ImageView
+
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/toolbar"
+                android:id="@+id/imageView"
+                android:src="@drawable/braille"
+                android:layout_marginTop="@dimen/dp_52"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_58"
+            android:layout_marginTop="@dimen/dp_8"
+            android:padding="@dimen/dp_8"
+            android:id="@+id/deleteButton"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginEnd="@dimen/dp_2"
+                android:clickable="false"
+                android:src="@drawable/ic_baseline_delete_forever_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:clickable="false"
+                android:text="@string/delete"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+</layout>

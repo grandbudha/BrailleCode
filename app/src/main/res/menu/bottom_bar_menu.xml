@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/delete_bottom_nav"
+        android:icon="@drawable/logo_white"
+        android:title="@string/braille" />
+    <item
+        android:id="@+id/grade_one_bottom_nav"
+        android:icon="@drawable/ic_baseline_text_grade_one"
+        android:title="@string/grade_one" />
+    <item
+        android:id="@+id/grade_two_bottom_nav"
+        android:icon="@drawable/ic_baseline_text_grade_two"
+        android:title="@string/grade_two" />
+
+</menu>
