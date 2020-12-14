@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.pruthvi.gobraille"
+        applicationId "com.james.gobraille"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

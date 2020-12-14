@@ -13,9 +13,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <!-- Recyler List View -->
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
+                app:title="@string/braille"
+                app:titleTextColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
